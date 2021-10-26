@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+#container > * {
+  margin: 4px auto;
+  border: 1px solid black;
+}
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  background-color: orange;
+}
+
+#aside {
+  background-color: green;
+  float: left;
+  width: calc(30% - 3px);
+}
+
+#main {
+  background-color: purple;
+  text-align: right;
+  float: right;
+  width: calc(70% - 3px);
+}
+
+#footer {
+  background-color: blue;
+  display: inline-block;
+  width: 100%;
+}
+
+.headFoot {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.asideMain {
+  padding: 10px 10px 300px 10px;
+}
